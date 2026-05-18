@@ -17,20 +17,31 @@
             width: 100%;
             height: 100vh;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            
+            background-color:rgb(231, 231, 242);
         }
 
 
         .container{
             position: absolute;
-            width: 300px;
+            width: 350px;
             height: auto;
-            background: color #777;
+            background:#fff;
             top: 50%;
             left: 50%;
             transform: translate(-50%,-50%);
             padding: 20px;
-            background-color: aqua;
+        }
+        img{
+            position: relative;
+            width: 70px;
+            height: 70px;
+            background-color: #eee;
+            border-radius: 50%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: auto;
+             margin-right: auto;
+             display: block;
         }
 
         .container h2{
@@ -38,19 +49,30 @@
             width: 100%;
             height: auto;
             text-align: center;
-            margin-bottom: 20px;
-            font-size: 35px;
+            margin-bottom: 10px;
+            font-size: 25px;
             text-transform: capitalize;
             font-weight: bold;
-            background-color: aqua;
+            color:#444;
+            /* background-color: aqua; */
         }
 
+        .container p{
+            position: relative;
+            width: 100%;
+            height: auto;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            font-size: 15px;
+            color: #333;
+        }
         .container form{
             position: relative;
             height: auto;
             display: flex;
             flex-direction: column;
-            background-color: aqua;
+            /* background-color: aqua; */
             ;
         }
 
@@ -59,19 +81,18 @@
             width: 100%;
             height: auto;
             margin-bottom: 8px;
-            font-size: 20px;
+            font-size: 15px;
             text-transform: capitalize;
-            background-color:aqua ;
             }
 
             .container form input{
                 position: relative;
                 width: 100%;
-                height: 50px;
+                height: auto;
                 padding: 10px 20px;
                 margin-bottom: 10px;
-                border-radius: 20px;
-                background-color: aqua;
+                border-radius: 10px;
+                border: 1px solid #383737;
             }
 
             button{
@@ -84,11 +105,11 @@
                 text-transform: capitalize;
                 display: direction;
                 cursor: pointer;
-                border-radius: 20px;
-                background-color: snow;
+                border-radius: 10px;
+                background-color: rgb(78, 53, 234);
             }
 
-            .container form name{
+            .container form{
                 position: relative;
                 width: 100%;
                 height: auto;
@@ -100,9 +121,10 @@
 </head>
 <body>
     <div class="container">
-        <img scr="">
-        <h2>create an accout</h2>
-        <form>
+        <img src="https://i.pinimg.com/736x/3f/1b/ed/3f1bed7c412853247ef2b4f50452638c.jpg" >
+        <h2>create an account</h2>
+        <p>Sign up to get the exclusive features,personalised content and start your journey with us!</p>
+       <form>
             <label for="name">name</label>
             <input type="email" placeholder="enter your name">
 
@@ -113,6 +135,8 @@
             <input type="password" placeholder="enter your password">
 
             <button>sign up</button>
+
+            <p>Already a member?<a href="#" >Sign in</a></p>
         </form>
     </div>
 </body>
