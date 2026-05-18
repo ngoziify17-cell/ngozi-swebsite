@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-image:url(https://www.google.com/imgres?q=black&imgurl=https%3A%2F%2Fwww.pixartprinting.co.uk%2Fblog%2Fwp-content%2Fuploads%2F2025%2F03%2FColore-nero-.jpg&imgrefurl=https%3A%2F%2Fwww.pixartprinting.co.uk%2Fblog%2Fhistory-of-black%2F%3Fsrsltid%3DAfmBOoqcvhtnCJhGWdkjJGVS4VyfvNjMGYkjuZryqXC9OWBjxnQO7Glf&docid=PRxR4qICxXQKiM&tbnid=GzNgJDsF6P2p7M&vet=12ahUKEwjqge3nncOUAxViU0EAHUdIBfcQnPAOegQIGRAB..i&w=880&h=550&hcb=2&ved=2ahUKEwjqge3nncOUAxViU0EAHUdIBfcQnPAOegQIGRAB) ;
+            position: relative;
+            width: 100%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .container{
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background-color: palegreen;
+        }
+
+        .container .box{
+            position: relative;
+            width: 30%;
+            height: auto;
+            background-color: #fff;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50% ,-50%);
+            padding: 20px;
+        }
+
+        .container .box h2{
+            position: relative;
+            width: 100%;
+            height: auto;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+                    }
+
+        .container .box p{
+            position: relative;
+            width: 100%;
+            height: auto;
+            text-align: center;
+            margin-bottom: 10px;
+            color: lawngreen;
+            font-size: 16px;
+        }
+
+        .container form{
+            position: relative;
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container form input{
+            position: relative;
+            width: 350px;
+            height:auto ;
+            padding: 12px 20px;
+            margin-bottom: 10px;
+            border-radius: 50px;
+            outline: none;
+            border: 1px solid purple;
+        }
+
+        .container form textarea{
+            position: relative;
+            width: 350px;
+            height: 150px;
+            padding: 5px;
+            margin-bottom: 10px;
+            color: purple;
+        }
+
+        button{
+            position: relative;
+            width: 350px;
+            height: 40px;
+            background-color: purple;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>feedback form</h2>
+            <p>can you fillin the form</p>
+            <img scr="https://www.google.com/imgres?q=black&imgurl=https%3A%2F%2Fwww.pixartprinting.co.uk%2Fblog%2Fwp-content%2Fuploads%2F2025%2F03%2FColore-nero-.jpg&imgrefurl=https%3A%2F%2Fwww.pixartprinting.co.uk%2Fblog%2Fhistory-of-black%2F%3Fsrsltid%3DAfmBOoqcvhtnCJhGWdkjJGVS4VyfvNjMGYkjuZryqXC9OWBjxnQO7Glf&docid=PRxR4qICxXQKiM&tbnid=GzNgJDsF6P2p7M&vet=12ahUKEwjqge3nncOUAxViU0EAHUdIBfcQnPAOegQIGRAB..i&w=880&h=550&hcb=2&ved=2ahUKEwjqge3nncOUAxViU0EAHUdIBfcQnPAOegQIGRAB">
+            <form>
+                <input type="text" placeholder="your name">
+
+                <input type="email" placeholder="mail id">
+
+                <input type="number" placeholder="mobile number">
+
+                <textarea placeholder="your feedback"></textarea>
+
+                <button>submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
